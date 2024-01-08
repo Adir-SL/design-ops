@@ -1,8 +1,13 @@
 @import url('fonts/font-noto.css');
 
+:root{
+    --ops-text: #101010;
+}
+
 #wrapper{
     width: calc(100% - 160px);
     padding: 80px;
+    color: var(--ops-text);
 }
 
 hr{
@@ -16,4 +21,17 @@ h1{
 }
 .text-center{
     text-align: center;
+}
+
+.c-flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.r-flex-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
