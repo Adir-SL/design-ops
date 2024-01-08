@@ -98,3 +98,6 @@ button{
     margin-top: 24px;
     margin-bottom: 8px;
 }
+.radius-8{
+    border-radius: 8px;
+}
