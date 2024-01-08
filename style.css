@@ -6,6 +6,10 @@
     --ops-white: #FFFAF4;
 }
 
+body{
+    background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
+}
+
 #wrapper{
     width: calc(100% - 160px);
     padding: 24px 80px;
