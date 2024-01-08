@@ -1,75 +1,78 @@
 @import url('fonts/font-noto.css');
 @import url('fonts/font-haas.css');
 
-:root{
+:root {
     --ops-text: #101010;
     --ops-white: #FFFAF4;
 }
 
-body{
+body {
     background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
 }
 
-#wrapper{
+#wrapper {
     width: calc(100% - 160px);
     padding: 24px 80px;
     color: var(--ops-text);
 }
 
-hr{
+hr {
     border: none;
     height: 1px;
     background: #A2A2A2;
 }
 
-h1{
+h1 {
     font-size: 5em;
 }
 
-h2{
+h2 {
     font-size: 1.8em;
     margin: 0;
     padding: 0;
 }
 
-h3{
+h3 {
     font-size: 1.5em;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.c-flex-center{
+.c-flex-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.c-flex-start{
+
+.c-flex-start {
     display: flex;
     flex-direction: column;
 }
-.r-flex-center{
+
+.r-flex-center {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.r-flex-start{
+
+.r-flex-start {
     display: flex;
     flex-direction: row;
 }
 
-.g-20{
+.g-20 {
     gap: 20px;
 }
 
-.max-50{
+.max-50 {
     max-width: 50%;
 }
 
-button{
+button {
     padding: 20px 40px;
     border-radius: 999px;
     background-color: var(--ops-text);
@@ -78,19 +81,20 @@ button{
     border: none;
 }
 
-.padding-tb-40{
+.padding-tb-40 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.margin-b-40{
+.margin-b-40 {
     margin-bottom: 40px;
 }
 
-.full-width{
+.full-width {
     width: 100%;
 }
-.chip{
+
+.chip {
     padding: 6px 14px;
     border: 1px solid;
     width: fit-content;
@@ -98,6 +102,7 @@ button{
     margin-top: 24px;
     margin-bottom: 8px;
 }
-.radius-8{
+
+.radius-8 {
     border-radius: 8px;
 }
