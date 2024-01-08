@@ -46,12 +46,25 @@ h3{
     justify-content: center;
     align-items: center;
 }
+.c-flex-start{
+    display: flex;
+    flex-direction: column;
+}
 .r-flex-center{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+.r-flex-start{
+    display: flex;
+    flex-direction: row;
+}
+
+.g-20{
+    gap: 20px;
+}
+
 .max-50{
     max-width: 50%;
 }
@@ -64,10 +77,16 @@ button{
     font-size: 1.2em;
     border: none;
 }
+
 .padding-tb-40{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .margin-b-40{
     margin-bottom: 40px;
+}
+
+.full-width{
+    width: 100%;
 }
