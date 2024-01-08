@@ -3,6 +3,7 @@
 
 :root{
     --ops-text: #101010;
+    --ops-white: #FFFAF4;
 }
 
 #wrapper{
@@ -35,4 +36,16 @@ h1{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.max-50{
+    max-width: 50%;
+}
+
+button{
+    padding: 20px 40px;
+    border-radius: 999px;
+    background-color: var(--ops-text);
+    color: var(--ops-white);
+    font-size: 1.2em;
+    border: none;
 }
