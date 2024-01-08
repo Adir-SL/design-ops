@@ -1,6 +1,8 @@
 @import url('fonts/font-noto.css');
 @import url('fonts/font-haas.css');
 
+/* Local */
+
 :root {
     --ops-text: #101010;
     --ops-white: #FFFAF4;
@@ -16,25 +18,18 @@ body {
     color: var(--ops-text);
 }
 
-hr {
-    border: none;
-    height: 1px;
-    background: #A2A2A2;
+/* Classes */
+
+.chip {
+    padding: 6px 14px;
+    border: 1px solid;
+    width: fit-content;
+    border-radius: 999px;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
 
-h1 {
-    font-size: 5em;
-}
-
-h2 {
-    font-size: 1.8em;
-    margin: 0;
-    padding: 0;
-}
-
-h3 {
-    font-size: 1.5em;
-}
+/* Utility */
 
 .text-center {
     text-align: center;
@@ -72,15 +67,6 @@ h3 {
     max-width: 50%;
 }
 
-button {
-    padding: 20px 40px;
-    border-radius: 999px;
-    background-color: var(--ops-text);
-    color: var(--ops-white);
-    font-size: 1.2em;
-    border: none;
-}
-
 .padding-tb-40 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -94,15 +80,37 @@ button {
     width: 100%;
 }
 
-.chip {
-    padding: 6px 14px;
-    border: 1px solid;
-    width: fit-content;
-    border-radius: 999px;
-    margin-top: 24px;
-    margin-bottom: 8px;
-}
-
 .radius-8 {
     border-radius: 8px;
+}
+
+/* Semantic */
+
+hr {
+    border: none;
+    height: 1px;
+    background: #A2A2A2;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+button {
+    padding: 20px 40px;
+    border-radius: 999px;
+    background-color: var(--ops-text);
+    color: var(--ops-white);
+    font-size: 1.2em;
+    border: none;
 }
