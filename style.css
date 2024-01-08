@@ -27,7 +27,7 @@ h1{
 }
 
 h2{
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0;
     padding: 0;
 }
@@ -89,4 +89,12 @@ button{
 
 .full-width{
     width: 100%;
+}
+.chip{
+    padding: 6px 14px;
+    border: 1px solid;
+    width: fit-content;
+    border-radius: 999px;
+    margin-top: 24px;
+    margin-bottom: 8px;
 }
