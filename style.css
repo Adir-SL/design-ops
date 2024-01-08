@@ -21,6 +21,11 @@ hr{
 h1{
     font-size: 5em;
 }
+
+h2{
+    font-size: 2em;
+}
+
 .text-center{
     text-align: center;
 }
@@ -52,4 +57,7 @@ button{
 .padding-tb-40{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.margin-b-40{
+    margin-bottom: 40px;
 }
