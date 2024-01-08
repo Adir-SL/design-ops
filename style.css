@@ -10,3 +10,10 @@ hr{
     height: 1px;
     background: #A2A2A2;
 }
+
+h1{
+    font-size: 5em;
+}
+.text-center{
+    text-align: center;
+}
