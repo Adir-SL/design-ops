@@ -1,0 +1,12 @@
+@import url('fonts/font-noto.css');
+
+#wrapper{
+    width: calc(100% - 160px);
+    padding: 80px;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background: #A2A2A2;
+}
