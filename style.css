@@ -6,7 +6,7 @@
 
 #wrapper{
     width: calc(100% - 160px);
-    padding: 80px;
+    padding: 24px 80px;
     color: var(--ops-text);
 }
 
