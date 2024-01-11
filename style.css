@@ -80,6 +80,10 @@ body {
     text-align: center;
 }
 
+.darker-hr{
+    background: #696969;
+}
+
 .c-flex-center {
     display: flex;
     flex-direction: column;
