@@ -66,6 +66,9 @@ body {
     outline: none;
     margin: 0 12px;
 }
+.input-wrapper input::placeholder{
+    color: var(--ops-text);
+}
 
 /* Utility */
 
