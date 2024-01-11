@@ -121,6 +121,10 @@ body {
     gap: 20px;
 }
 
+.g-12 {
+    gap: 12px;
+}
+
 .g-4 {
     gap: 4px;
 }
