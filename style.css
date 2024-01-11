@@ -99,6 +99,11 @@ body {
     display: flex;
     flex-direction: row;
 }
+.r-flex-end {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
 
 .space-between {
     justify-content: space-between;
