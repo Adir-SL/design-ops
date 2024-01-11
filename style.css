@@ -72,6 +72,10 @@ body {
     gap: 20px;
 }
 
+.g-4 {
+    gap: 4px;
+}
+
 .max-50 {
     max-width: 50%;
 }
