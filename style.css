@@ -255,6 +255,7 @@ button {
     border: none;
     cursor: pointer;
     overflow: hidden;
+    border: 1px solid var(--ops-text);
 }
 
 button::after {
@@ -264,9 +265,9 @@ button::after {
     height: 0;
     bottom: 0;
     left: 0;
-    background-color: var(--ops-white);
-    opacity: 0.4;
-    mix-blend-mode: lighten;
+    background-color:#FFEDBE;
+    opacity: 1;
+    mix-blend-mode: difference;
     transition: height 300ms ease-in-out 0s;
 }
 
