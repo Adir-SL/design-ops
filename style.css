@@ -154,6 +154,10 @@ body {
     justify-content: space-between;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .g-40 {
     gap: 40px;
 }
