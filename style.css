@@ -41,6 +41,12 @@ body {
     font-size: calc(var(--text-size) - (var(--text-size) / 4));
 }
 
+.avatar{
+    border-radius: 9999px;
+    width: 48px;
+    height: 48px;
+}
+
 /* Utility */
 
 .text-center {
@@ -102,6 +108,9 @@ body {
 
 .radius-8 {
     border-radius: 8px;
+}
+.full-radius {
+    border-radius: 9999px;
 }
 
 /* Semantic */
