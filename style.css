@@ -72,6 +72,8 @@ body {
 }
 .input-wrapper input::placeholder{
     color: var(--ops-text);
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
 }
 
 /* Utility */
@@ -212,4 +214,5 @@ footer{
     bottom: 0;
     background: linear-gradient(0deg, #FFEDBE -10.75%, #FFFAF4 100%);
     mix-blend-mode: darken;
+    pointer-events: none;
 }
