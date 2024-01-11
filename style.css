@@ -8,6 +8,10 @@
     --ops-white: #FFFAF4;
 }
 
+html {
+    background-color: #FFEDBE;
+}
+
 body {
     background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
 }
