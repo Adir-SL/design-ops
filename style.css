@@ -13,6 +13,11 @@ html {
 }
 
 body {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
     background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
 }
 
