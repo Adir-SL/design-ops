@@ -57,6 +57,13 @@ body {
     background-size: 33%;
 }
 
+.icon-72 {
+    width: 72px;
+    height: 72px;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+}
+
 .input-wrapper {
     border: 1px solid var(--ops-text);
     border-radius: 9999px;
@@ -70,7 +77,8 @@ body {
     outline: none;
     margin: 0 12px;
 }
-.input-wrapper input::placeholder{
+
+.input-wrapper input::placeholder {
     color: var(--ops-text);
     font-family: 'Noto Sans Hebrew', sans-serif;
     font-weight: 600;
@@ -82,17 +90,17 @@ body {
     text-align: center;
 }
 
-.darker-hr{
+.darker-hr {
     background: #696969;
 }
 
-.no-link{
+.no-link {
     color: inherit;
     text-decoration: none;
     position: relative;
 }
 
-.no-link::after{
+.no-link::after {
     content: '';
     position: absolute;
     bottom: -0.1em;
@@ -102,10 +110,12 @@ body {
     border-bottom: 2px solid;
     transition: width 300ms ease-in-out 0s;
 }
-.no-link:hover::after{
+
+.no-link:hover::after {
     width: 100%;
 }
-.no-link-right::after{
+
+.no-link-right::after {
     left: unset;
     right: 0;
 }
@@ -133,6 +143,7 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 .r-flex-end {
     display: flex;
     flex-direction: row;
@@ -230,7 +241,7 @@ button {
     cursor: pointer;
 }
 
-footer{
+footer {
     position: absolute;
     width: 100%;
     height: 300px;
