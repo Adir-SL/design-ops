@@ -192,4 +192,5 @@ button {
     color: var(--ops-white);
     font-size: 1.2em;
     border: none;
+    cursor: pointer;
 }
