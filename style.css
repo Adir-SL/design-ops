@@ -47,6 +47,26 @@ body {
     height: 48px;
 }
 
+.icon-button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.input-wrapper {
+    border: 1px solid var(--ops-text);
+    border-radius: 9999px;
+    width: fit-content;
+    padding: 4px;
+}
+
+.input-wrapper input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 0 12px;
+}
+
 /* Utility */
 
 .text-center {
