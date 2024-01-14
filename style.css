@@ -10,7 +10,7 @@
     --ops-select: #FFED4B;
 }
 
-::selection{
+::selection {
     background-color: var(--ops-select);
 }
 
@@ -47,6 +47,7 @@ button.chip {
     color: var(--ops-text);
     font-size: calc(var(--text-size) - (var(--text-size) / 4));
 }
+
 button.chip:hover {
     padding: 6px 14px;
     border: 1px solid;
@@ -125,7 +126,7 @@ button.chip:hover {
     text-underline-offset: var(--text-size);
 }
 
-.no-link:focus-visible{
+.no-link:focus-visible {
     outline: none;
     text-decoration: underline;
     text-underline-offset: var(--text-size);
@@ -291,14 +292,21 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
-    :root{
+    :root {
         --text-size: 10px;
     }
-    #wrapper{
+
+    #wrapper {
         padding: 24px;
         width: calc(100% - 48px);
     }
-    .r-flex-start, .r-flex-end{
+
+    .r-flex-start,
+    .r-flex-end {
         flex-direction: column;
+    }
+
+    .logo img {
+        max-width: 35vw;
     }
 }
