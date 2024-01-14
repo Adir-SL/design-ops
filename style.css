@@ -10,6 +10,10 @@
     --ops-select: #FFED4B;
 }
 
+::selection{
+    background-color: var(--ops-select);
+}
+
 html {
     background-color: #FFEDBE;
 }
