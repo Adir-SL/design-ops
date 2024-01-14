@@ -107,6 +107,12 @@ body {
     text-underline-offset: var(--text-size);
 }
 
+.no-link:focus-visible{
+    outline: none;
+    text-decoration: underline;
+    text-underline-offset: var(--text-size);
+}
+
 .c-flex-center {
     display: flex;
     flex-direction: column;
