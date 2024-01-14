@@ -103,6 +103,7 @@ body {
 
 .no-link:hover {
     text-decoration: underline;
+    text-underline-offset: var(--text-size);
 }
 
 .c-flex-center {
