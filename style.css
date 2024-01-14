@@ -250,7 +250,8 @@ button:hover {
 }
 
 button:focus-visible {
-    outline: 3px solid var(--ops-focus);
+    outline: 3px solid var(--ops-text);
+    outline-offset: 1px;
 }
 
 footer {
