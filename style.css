@@ -36,13 +36,27 @@ body {
 
 /* Classes */
 
-.chip {
+button.chip {
+    padding: 6px 14px;
+    border: 1px solid var(--ops-text);
+    width: fit-content;
+    border-radius: 9999px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    background-color: var(--ops-white);
+    color: var(--ops-text);
+    font-size: calc(var(--text-size) - (var(--text-size) / 4));
+}
+button.chip:hover {
     padding: 6px 14px;
     border: 1px solid;
     width: fit-content;
     border-radius: 9999px;
     margin-top: 24px;
     margin-bottom: 8px;
+    color: var(--ops-white);
+    border: 1px solid var(--ops-text);
+    background-color: var(--ops-text);
     font-size: calc(var(--text-size) - (var(--text-size) / 4));
 }
 
