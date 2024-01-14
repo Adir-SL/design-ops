@@ -251,7 +251,6 @@ button:hover {
 
 button:focus-visible {
     outline: 3px solid var(--ops-focus);
-    /* box-shadow: 0 0 0 3px var(--ops-focus); */
 }
 
 footer {
