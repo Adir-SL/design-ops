@@ -289,3 +289,9 @@ footer {
     mix-blend-mode: darken;
     pointer-events: none;
 }
+
+@media only screen and (max-width: 800px) {
+    body{
+        background: red;
+    }
+}
