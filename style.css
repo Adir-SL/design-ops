@@ -101,24 +101,8 @@ body {
     position: relative;
 }
 
-.no-link::after {
-    content: '';
-    position: absolute;
-    bottom: -0.1em;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-bottom: 2px solid;
-    transition: width 300ms ease-in-out 0s;
-}
-
-.no-link:hover::after {
-    width: 100%;
-}
-
-.no-link-right::after {
-    left: unset;
-    right: 0;
+.no-link:hover {
+    text-decoration: underline;
 }
 
 .c-flex-center {
@@ -265,7 +249,7 @@ button::after {
     height: 0;
     bottom: 0;
     left: 0;
-    background-color:#FFEDBE;
+    background-color: #FFEDBE;
     opacity: 1;
     mix-blend-mode: difference;
     transition: height 300ms ease-in-out 0s;
