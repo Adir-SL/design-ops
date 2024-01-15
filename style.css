@@ -346,4 +346,7 @@ footer {
         height: 48px;
         width: 48px;
     }
+    .input-wrapper{
+        flex-direction: row;
+    }
 }
