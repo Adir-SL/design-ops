@@ -342,6 +342,9 @@ footer {
     .g-8-mob{
         gap: 8px;
     }
+    .g-32-mob{
+        gap: 32px;
+    }
     .icon-72{
         height: 48px;
         width: 48px;
