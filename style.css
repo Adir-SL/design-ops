@@ -337,7 +337,10 @@ footer {
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        max-width: 60vw;
+        max-width: 70vw;
+    }
+    .g-8-mob{
+        gap: 8px;
     }
     .icon-72{
         height: 48px;
