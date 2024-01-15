@@ -309,4 +309,15 @@ footer {
     .logo img {
         max-width: 35vw;
     }
+
+    p {
+        font-size: 1.5em;
+    }
+    .max-50{
+        max-width: 80%;
+    }
+
+    button.chip {
+        font-size: 1.2em;
+    }
 }
