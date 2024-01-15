@@ -58,7 +58,6 @@ button.chip:hover {
     color: var(--ops-white);
     border: 1px solid var(--ops-text);
     background-color: var(--ops-text);
-    font-size: calc(var(--text-size) - (var(--text-size) / 4));
 }
 
 .avatar {
