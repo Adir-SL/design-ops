@@ -324,6 +324,9 @@ footer {
     .max-50 {
         max-width: 80%;
     }
+    .max-third{
+        max-width: 80%;
+    }
 
     button.chip {
         font-size: 1.2em;
