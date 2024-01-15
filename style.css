@@ -363,10 +363,20 @@ footer {
         margin: 0 24px;
         flex-grow: 1;
     }
-    .flex-start-mob{
+
+    .flex-start-mob {
         align-items: flex-start;
     }
-    button, a{
+
+    button,
+    a,
+    input {
         -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
 }
