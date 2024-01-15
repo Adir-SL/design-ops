@@ -349,4 +349,7 @@ footer {
     .input-wrapper{
         flex-direction: row;
     }
+    .input-wrapper input{
+        margin: 0 24px;
+    }
 }
