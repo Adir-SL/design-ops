@@ -304,6 +304,9 @@ footer {
     .r-flex-end {
         flex-direction: column;
     }
+    .chips-wrapper{
+        flex-direction: row;
+    }
 
     .logo img {
         max-width: 35vw;
