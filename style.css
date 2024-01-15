@@ -304,7 +304,8 @@ footer {
     .r-flex-end {
         flex-direction: column;
     }
-    .chips-wrapper{
+
+    .r-flex-mob {
         flex-direction: row;
     }
 
@@ -312,10 +313,15 @@ footer {
         max-width: 35vw;
     }
 
+    h3 {
+        font-size: 2em;
+    }
+
     p {
         font-size: 1.5em;
     }
-    .max-50{
+
+    .max-50 {
         max-width: 80%;
     }
 
