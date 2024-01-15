@@ -325,7 +325,8 @@ footer {
         max-width: 80%;
     }
     .max-third{
-        max-width: 80%;
+        width: 100%;
+        max-width: unset;
     }
 
     button.chip {
