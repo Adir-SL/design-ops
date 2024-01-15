@@ -332,4 +332,15 @@ footer {
     button.chip {
         font-size: 1.2em;
     }
+
+    .mob-1-line{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 60vw;
+    }
+    .icon-72{
+        height: 48px;
+        width: 48px;
+    }
 }
