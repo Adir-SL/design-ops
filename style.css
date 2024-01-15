@@ -366,4 +366,7 @@ footer {
     .flex-start-mob{
         align-items: flex-start;
     }
+    button, a{
+        -webkit-tap-highlight-color: transparent;
+    }
 }
