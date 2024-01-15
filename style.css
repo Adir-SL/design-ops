@@ -46,6 +46,10 @@ button.chip {
     background-color: var(--ops-white);
     color: var(--ops-text);
     font-size: calc(var(--text-size) - (var(--text-size) / 4));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: calc(24vw - 200px);
 }
 
 button.chip:hover {
@@ -74,7 +78,8 @@ button.chip:hover {
     justify-content: center;
     align-items: center;
 }
-.icon-button .icon{
+
+.icon-button .icon {
     width: 16px;
     height: 16px;
     padding: 0;
@@ -285,7 +290,8 @@ button:focus-visible {
     outline: 3px solid var(--ops-text);
     outline-offset: 1px;
 }
-button:hover .icon{
+
+button:hover .icon {
     filter: invert(100%);
 }
 
@@ -343,6 +349,7 @@ footer {
 
     button.chip {
         font-size: 1.2em;
+        max-width: unset;
     }
 
     .mob-1-line {
